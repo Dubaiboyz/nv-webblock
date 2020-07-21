@@ -17,6 +17,11 @@ UserController.remove
 app.get('/user/:userId',
 UserController.show
 )
+// get last user
+app.get('/lastuser',
+UserController.lastuser
+)
+
 // get all user
 app.get('/users',
 UserController.index
