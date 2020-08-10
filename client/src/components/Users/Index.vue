@@ -13,8 +13,8 @@
 <button v-on:click="navigateTo('/user/edit/'+ user.id)">แก้ไขข้อมูล
 </button>
 <button v-on:click="deleteUser(user)">ลบข้อมูล</button>
-<p>
-<hr>
+</p>
+ <hr>
 </div>
 </div>
 </template>
